@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import br.com.marcocarleti.gestao_vagas.modules.candidate.CandidateEntity;
 import br.com.marcocarleti.gestao_vagas.modules.candidate.useCases.CreateCandidateUseCase;
-import jakarta.validation.Valid;
+import javax.validation.Valid;
 
 @RestController
 @RequestMapping("/candidate")
